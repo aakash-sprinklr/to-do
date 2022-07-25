@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Satisfy&display=swap');
+*{
+    margin: 0;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.header{
+    background-color: #DFE6E9;
+    margin-top: 0;
+    padding: 10px 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.checked{
+    text-decoration: line-through;
+    opacity: 0.15;
+}
+
+.input-container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap:12px;
+}
+
+.list-container{
+    margin-top: 32px;
+}
+
+.item-container{
+    display: flex;
+    gap:12px;
+    font-size: 2em;
+    font-family: 'Satisfy', cursive;
+}
+
+input[type='text']{
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 24px;
+    border: 1px solid gray;
+}
+
+button{
+    padding:  8px 32px;
+    background-color: #1890ff;
+    border:1px solid #1890ff;
+    color: white;
+    border-radius: 24px;
+}
+
+button:active{
+    background-color: #096dd9;
+}
